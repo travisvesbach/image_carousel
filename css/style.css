@@ -1,0 +1,71 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+	width: 90%;
+	margin: 0px 5%;
+	position: relative;
+}
+
+.carousel {
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+}
+
+.slide {
+	object-fit: cover;
+	height: inherit;
+	width: inherit;
+}
+
+.buttons {
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	margin-top: -500px;
+}
+
+#previous, #next {
+	margin-top: 250px;
+	font-size: 3em;
+	cursor: pointer;
+	color: white;
+	background-color: black;
+	opacity: 0.5; 
+	border: 0px;
+}
+
+#previous {
+	float: left;
+}
+
+#next {
+	float: right;
+}
+
+.bottom-buttons {
+	position: absolute;
+	display: inline;
+	height: 50px;
+	margin-top: -50px;
+	width: 15%;
+	margin-left: 42.5%;
+	margin-right: 42.5%;
+}
+
+.bottom-button {
+	list-style: none;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: solid 1px white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.current {
+	background-color: white;
+}
